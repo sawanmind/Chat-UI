@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		4434B8411FE793A5004041B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434B8401FE793A5004041B0 /* AppDelegate.swift */; };
-		4434B8431FE793A5004041B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434B8421FE793A5004041B0 /* ViewController.swift */; };
-		4434B8461FE793A5004041B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4434B8441FE793A5004041B0 /* Main.storyboard */; };
 		4434B8481FE793A5004041B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4434B8471FE793A5004041B0 /* Assets.xcassets */; };
 		4434B84B1FE793A5004041B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4434B8491FE793A5004041B0 /* LaunchScreen.storyboard */; };
+		44528E391FE79FA30024ECC1 /* SMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44528E381FE79FA30024ECC1 /* SMLabel.swift */; };
+		44528E3B1FE7A6B90024ECC1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44528E3A1FE7A6B90024ECC1 /* ViewController2.swift */; };
+		44528E3D1FE7B8CC0024ECC1 /* SMAutoLayout_WithLayoutMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44528E3C1FE7B8CC0024ECC1 /* SMAutoLayout_WithLayoutMargin.swift */; };
+		44528E411FE7F28D0024ECC1 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44528E401FE7F28D0024ECC1 /* TextCell.swift */; };
+		44528E431FE7F3750024ECC1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44528E421FE7F3750024ECC1 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4434B83D1FE793A5004041B0 /* dynamic Collection Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dynamic Collection Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4434B8401FE793A5004041B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4434B8421FE793A5004041B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4434B8451FE793A5004041B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4434B8471FE793A5004041B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4434B84A1FE793A5004041B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4434B84C1FE793A5004041B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44528E381FE79FA30024ECC1 /* SMLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMLabel.swift; sourceTree = "<group>"; };
+		44528E3A1FE7A6B90024ECC1 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		44528E3C1FE7B8CC0024ECC1 /* SMAutoLayout_WithLayoutMargin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMAutoLayout_WithLayoutMargin.swift; sourceTree = "<group>"; };
+		44528E401FE7F28D0024ECC1 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		44528E421FE7F3750024ECC1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				4434B8401FE793A5004041B0 /* AppDelegate.swift */,
-				4434B8421FE793A5004041B0 /* ViewController.swift */,
-				4434B8441FE793A5004041B0 /* Main.storyboard */,
+				44528E3A1FE7A6B90024ECC1 /* ViewController2.swift */,
+				44528E401FE7F28D0024ECC1 /* TextCell.swift */,
+				44528E421FE7F3750024ECC1 /* HeaderView.swift */,
+				44528E3C1FE7B8CC0024ECC1 /* SMAutoLayout_WithLayoutMargin.swift */,
+				44528E381FE79FA30024ECC1 /* SMLabel.swift */,
 				4434B8471FE793A5004041B0 /* Assets.xcassets */,
 				4434B8491FE793A5004041B0 /* LaunchScreen.storyboard */,
 				4434B84C1FE793A5004041B0 /* Info.plist */,
@@ -125,7 +134,6 @@
 			files = (
 				4434B84B1FE793A5004041B0 /* LaunchScreen.storyboard in Resources */,
 				4434B8481FE793A5004041B0 /* Assets.xcassets in Resources */,
-				4434B8461FE793A5004041B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4434B8431FE793A5004041B0 /* ViewController.swift in Sources */,
+				44528E411FE7F28D0024ECC1 /* TextCell.swift in Sources */,
+				44528E431FE7F3750024ECC1 /* HeaderView.swift in Sources */,
+				44528E3B1FE7A6B90024ECC1 /* ViewController2.swift in Sources */,
+				44528E3D1FE7B8CC0024ECC1 /* SMAutoLayout_WithLayoutMargin.swift in Sources */,
+				44528E391FE79FA30024ECC1 /* SMLabel.swift in Sources */,
 				4434B8411FE793A5004041B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +156,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4434B8441FE793A5004041B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4434B8451FE793A5004041B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4434B8491FE793A5004041B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WY9KU9K2Z2;
 				INFOPLIST_FILE = "dynamic Collection Cell/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sawanmind.dynamic-Collection-Cell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WY9KU9K2Z2;
 				INFOPLIST_FILE = "dynamic Collection Cell/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sawanmind.dynamic-Collection-Cell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
